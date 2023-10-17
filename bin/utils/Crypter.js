@@ -68,7 +68,7 @@ export class Crypter {
 
       const fileStats = await stat(filePath)
 
-      if (fileStats.isFile() && filePath.endsWith('.encrypted')) {
+      if (fileStats.isFile() && filePath.endsWith('.enc')) {
         await this.decryptFile(filePath, encryptionKey)
       }
 
