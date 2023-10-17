@@ -1,11 +1,11 @@
-# Fcrypt
+# Fcrypt CLI
 
 Fcrypt is a simple CLI tool to encrypt and decrypt files using AES-256-CBC algorithm. It is written in Node.js and uses the built-in crypto module.
 
 ## Installation
 
 ```bash
-npm install -g fcrypt
+npm install -g fcrypt-cli
 ```
 
 ## Usage

@@ -1,12 +1,14 @@
 {
-  "name": "fcrypt",
+  "name": "fcrypt-cli",
   "version": "1.0.0",
+  "author": "MrKrrot",
+  "license": "MIT",
   "description": "Fcrypt is a simple CLI tool to encrypt and decrypt files using AES-256-CBC algorithm. It is written in Node.js and uses the built-in crypto module.",
   "type": "module",
   "main": "./bin/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrKrrot/fcrypt.git"
+    "url": "https://github.com/MrKrrot/fcrypt-cli.git"
   },
   "bin": {
     "fcrypt": "./bin/index.js"
@@ -32,8 +34,6 @@
     "folder",
     "fs"
   ],
-  "author": "MrKrrot",
-  "license": "MIT",
   "dependencies": {
     "chalk": "^5.2.0",
     "commander": "^11.1.0",
