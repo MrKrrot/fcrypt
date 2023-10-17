@@ -1,0 +1,53 @@
+{
+  "name": "fcrypt",
+  "version": "1.0.0",
+  "description": "Fcrypt is a simple CLI tool to encrypt and decrypt files using AES-256-CBC algorithm. It is written in Node.js and uses the built-in crypto module.",
+  "type": "module",
+  "main": "./bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrKrrot/fcrypt.git"
+  },
+  "bin": {
+    "fcrypt": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "prepare": "husky install",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix"
+  },
+  "keywords": [
+    "aes",
+    "aes-256-cbc",
+    "cli",
+    "command",
+    "command-line",
+    "command-line-tool",
+    "crypto",
+    "decrypt",
+    "encrypt",
+    "file",
+    "file-system",
+    "folder",
+    "fs"
+  ],
+  "author": "MrKrrot",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.11"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.0",
+    "@commitlint/config-conventional": "^17.8.0",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.1",
+    "prettier": "^3.0.3",
+    "standard": "^17.1.0"
+  }
+}
